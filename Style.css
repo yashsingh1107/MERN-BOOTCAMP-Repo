@@ -1,0 +1,61 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg");
+}
+
+.hello{
+    color: white;
+    font-family: monospace;
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid red;
+} 
+.name{
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px dotted yellowgreen;
+
+} 
+
+h2{
+    font-style: italic;
+    font-family: serif;
+    font-weight: 60px;
+    color: rgb(1, 250, 196);
+}
+
+#lorem{
+    font-family: fantasy;
+    font-weight: 50px;
+    color: red;
+}
+
+#guys {
+    font-family: serif;
+    font-weight: 80 px;
+    color: aqua;
+}
+
+button {
+    border: 2px dotted black;
+    background-color: coral;
+    color: green;
+    border-radius:20%;
+}
+
+input[type="text"] {
+    border: 5px solid black;
+}
+
+input[type="password"] {
+    border: 5px solid red;
+}
+
+input[type="email"] {
+    border: 5px solid green;
+}
+
+input[type="tel"] {
+    border: 5px solid yellow;
+}

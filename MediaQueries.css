@@ -1,0 +1,36 @@
+/*mobile-> green
+tablet-> blue
+laptop-> red
+pc-> orange
+
+Mobile-First Approach
+*/
+
+/*
+Device width(breakpoints) ->
+mobile- 0 to 767px
+tablet - 768 px
+laptop-1020px
+pc-1400px
+*/
+
+body{
+    background-color: green;
+}
+@media (min-width: 768px){
+    body{
+        background-color:blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color:orange;
+    }
+}
